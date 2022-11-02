@@ -14,12 +14,12 @@ namespace Persistencia.DAL.Cadastros
         private EFContext context = new EFContext();
         public IQueryable<Consulta> ObterConsultasClassificadosPorData()
         {
-            return context.Consultas.OrderBy(b => b.Data_hora);
+            return context.Consultas.Include(c => c.Exame).OrderBy(n => n.Data_hora);
         }
 
         public Consulta ObterConsultaPorId(long id)
         {
-            return context.Consultas.Where(f => f.ConsultaId == id).First();
+            return context.Consultas.Where(p => p.ConsultaId == id).Include(c => c.Exame).First();
         }
 
         public void GravarConsulta(Consulta consulta)
