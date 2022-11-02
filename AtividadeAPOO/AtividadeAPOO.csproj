@@ -108,6 +108,11 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
+    <Content Include="Views\Exames\Index.cshtml" />
+    <Content Include="Views\Exames\Create.cshtml" />
+    <Content Include="Views\Exames\Edit.cshtml" />
+    <Content Include="Views\Exames\Details.cshtml" />
+    <Content Include="Views\Exames\Delete.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
