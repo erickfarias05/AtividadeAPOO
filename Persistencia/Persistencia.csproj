@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contexts\EFContext.cs" />
+    <Compile Include="DAL\Cadastros\ConsultaDAL.cs" />
     <Compile Include="DAL\Cadastros\ExameDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
