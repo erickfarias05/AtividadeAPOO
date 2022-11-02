@@ -13,7 +13,7 @@
 </head>
 <body>
     <p>
-        @Html.ActionLink("Adicionar Consulta", "Create")
+        @Html.ActionLink("Create New", "Create")
     </p>
     <table class="table">
         <tr>
@@ -22,6 +22,9 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Sintomas)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ExameId)
             </th>
             <th></th>
         </tr>
@@ -35,9 +38,12 @@
                 @Html.DisplayFor(modelItem => item.Sintomas)
             </td>
             <td>
-                @Html.ActionLink("Editar", "Edit", new { id=item.ConsultaId }) |
-                @Html.ActionLink("Detalhes", "Details", new { id=item.ConsultaId }) |
-                @Html.ActionLink("Deletar Consulta", "Delete", new { id=item.ConsultaId })
+                @Html.DisplayFor(modelItem => item.ExameId)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.ConsultaId }) |
+                @Html.ActionLink("Details", "Details", new { id=item.ConsultaId }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.ConsultaId })
             </td>
         </tr>
     }

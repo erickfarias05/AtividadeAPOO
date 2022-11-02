@@ -32,11 +32,19 @@
                 @Html.DisplayFor(model => model.Sintomas)
             </dd>
     
+            <dt>
+                @Html.DisplayNameFor(model => model.ExameId)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ExameId)
+            </dd>
+    
         </dl>
     </div>
     <p>
-        @Html.ActionLink("Editar", "Edit", new { id = Model.ConsultaId }) |
-        @Html.ActionLink("Voltar para a listagem", "Index")
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ConsultaId }) |
+        @Html.ActionLink("Back to List", "Index")
     </p>
 </body>
 </html>
