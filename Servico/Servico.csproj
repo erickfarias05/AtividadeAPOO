@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cadastros\ConsultaServico.cs" />
+    <Compile Include="Cadastros\EspecieServico.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Cadastros\ExameServico.cs" />
   </ItemGroup>

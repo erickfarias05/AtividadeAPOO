@@ -102,6 +102,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AnimalController.cs" />
     <Compile Include="Controllers\ConsultasController.cs" />
     <Compile Include="Controllers\ExamesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -122,6 +123,11 @@
     <Content Include="Views\Exames\Edit.cshtml" />
     <Content Include="Views\Exames\Delete.cshtml" />
     <Content Include="Views\Exames\Details.cshtml" />
+    <Content Include="Views\Animal\Index.cshtml" />
+    <Content Include="Views\Animal\Create.cshtml" />
+    <Content Include="Views\Animal\Edit.cshtml" />
+    <Content Include="Views\Animal\Details.cshtml" />
+    <Content Include="Views\Animal\Delete.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

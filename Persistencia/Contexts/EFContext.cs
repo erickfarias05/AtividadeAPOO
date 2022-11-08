@@ -20,6 +20,8 @@ namespace Persistencia.Contexts
 
         public DbSet<Consulta> Consultas { get; set; }
 
+        public DbSet<Especie> Especies { get; set; }
+
 
     }
 }
