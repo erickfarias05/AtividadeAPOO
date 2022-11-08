@@ -22,6 +22,8 @@ namespace Persistencia.Contexts
 
         public DbSet<Especie> Especies { get; set; }
 
+        public DbSet<Usuario> Usuarios { get; set; }
+
 
     }
 }
