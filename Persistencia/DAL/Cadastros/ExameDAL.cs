@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Persistencia.DAL.Cadastros
 {
-    public class ExameDAL
+    public class VeterinarioDAL
     {
         private EFContext context = new EFContext();
         public IQueryable<Exame> ObterExamesClassificadosPorNome()

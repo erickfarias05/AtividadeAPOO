@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Modelo.Cadastros
 {
-    public class Especie
+    public class Veterinario
     {
-        public long EspecieId { get; set; }
-
-        public string Cpf { get; set; }
+        public long VeterinarioId { get; set; }
+        public string Crmv { get; set; }
     }
 }

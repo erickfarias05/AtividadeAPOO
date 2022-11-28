@@ -52,9 +52,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contexts\EFContext.cs" />
+    <Compile Include="DAL\Cadastros\ClienteDAL.cs" />
     <Compile Include="DAL\Cadastros\ConsultaDAL.cs" />
     <Compile Include="DAL\Cadastros\EspecieDAL.cs" />
     <Compile Include="DAL\Cadastros\ExameDAL.cs" />
+    <Compile Include="DAL\Cadastros\VeterinarioDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

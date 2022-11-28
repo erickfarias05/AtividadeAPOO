@@ -10,7 +10,7 @@ namespace Servico.Cadastros
 {
     public class ExameServico
     {
-        private ExameDAL exameDAL = new ExameDAL();
+        private VeterinarioDAL exameDAL = new VeterinarioDAL();
         public IQueryable<Exame> ObterExamesClassificadosPorNome()
         {
             return exameDAL.ObterExamesClassificadosPorNome();

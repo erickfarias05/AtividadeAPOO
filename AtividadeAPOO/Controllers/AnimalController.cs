@@ -96,7 +96,7 @@ namespace AtividadeAPOO.Controllers
             try
             {
                 Especie especie = especiesServico.EliminarEspeciePorId(id);
-                TempData["Message"] = "Especie " + especie.Nome.ToUpper() + " foi removido";
+                TempData["Message"] = "Especie " + especie.Cpf.ToUpper() + " foi removido";
                 return RedirectToAction("Index");
             }
             catch

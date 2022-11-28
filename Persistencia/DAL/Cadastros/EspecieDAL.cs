@@ -14,7 +14,7 @@ namespace Persistencia.DAL.Cadastros
         private EFContext context = new EFContext();
         public IQueryable<Especie> ObterEspeciesClassificadosPorNome()
         {
-            return context.Especies.OrderBy(b => b.Nome);
+            return context.Especies.OrderBy(b => b.Cpf);
         }
 
         public Especie ObterEspeciePorId(long id)
